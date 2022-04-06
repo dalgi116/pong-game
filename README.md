@@ -1,4 +1,5 @@
 # pong-game
-Old-fashioned game made in pygame.
+author: Daniel Franc
 
-For singleplayer mode set singlePlayerMode = True
+An old-fashioned game made in pygame.
+For singleplayer mode set singlePlayerMode = True in app.py.
