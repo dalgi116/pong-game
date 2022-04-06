@@ -1,7 +1,7 @@
-import pygame, math, random
+import pygame, random
 pygame.init()
 
-singlePlayerMode = True
+singlePlayerMode = False
 fps = 60
 width, height = 1100, 700
 backgroundColor = (53, 40, 232)
@@ -13,6 +13,7 @@ ballAcceleration = 0.5
 deskWidth, deskHeight = 20, 120
 deskSpeed = 5
 
+pygame.display.set_caption("Pong-game")
 rightScores = pygame.USEREVENT + 1
 leftScores = pygame.USEREVENT + 2
 window = pygame.display.set_mode((width, height))
